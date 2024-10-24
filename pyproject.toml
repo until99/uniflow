@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "uniflow"
+version = "0.1.0"
+description = ""
+authors = ["untill99 <gabriel.kasten@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# TODO: Alterar comando automatizado
+# C:\Users\gabriel.kasten\AppData\Roaming\Python\Scripts\poetry.exe build       >> poetry build
+# C:\Users\gabriel.kasten\AppData\Roaming\Python\Scripts\poetry.exe show --tree >> poetry show --tree
+# poetry --remove-untracked
+
+[tool.taskipy.tasks]
+build = 'C:\Users\gabriel.kasten\AppData\Roaming\Python\Scripts\poetry.exe build'
+list_dependencies = 'C:\Users\gabriel.kasten\AppData\Roaming\Python\Scripts\poetry.exe show --tree -l'
+clear_dependencies = 'C:\Users\gabriel.kasten\AppData\Roaming\Python\Scripts\poetry.exe --remove-untracked'
