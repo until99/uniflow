@@ -2,9 +2,9 @@
 
 Uniflow is a robust ETL library designed for the NUDA team at Unimed SC.
 
-## Tabela de Conteúdos
+## Content Table
 - [Uniflow](#uniflow)
-  - [Tabela de Conteúdos](#tabela-de-conteúdos)
+  - [Content Table](#content-table)
   - [Instalation](#instalation)
     - [Pre-requisites](#pre-requisites)
   - [Usage](#usage)
@@ -85,7 +85,6 @@ poetry add pendulum --group time_utils
   - [ ] File Format Conversion
 
 - [ ] Time Tracking Uitls
-  - [ ] Log Step
   - [ ] Start Track
   - [ ] Stop Track
   - [ ] Set Timeout
@@ -96,22 +95,23 @@ poetry add pendulum --group time_utils
   - [ ] Aggregations
   - [ ] Filter
 
-- Logging
+- [ ] Logging
+  - [ ] Log Step
   - [ ] Generate Reports
 
-- Data Validation
+- [ ] Data Validation
   - [ ] Schema Validation (Right Collumns Type, Expected Values)
   - [ ] Data Profiling (Identify Duplicates, Missing Values, Outliers)
 
 ## Project Structure
-/uniflow
-│
-├── /dist             # Package
-├── /tests            # Tests
-├── /uniflow          # Source code
-├── poetry.lock
-├── pyproject.toml    # Project dependencies
-└── README.md         # Documentation
+/uniflow</br>
+│</br>
+├── /dist             # Package</br>
+├── /tests            # Tests</br>
+├── /uniflow          # Source code</br>
+├── poetry.lock</br>
+├── pyproject.toml    # Project dependencies</br>
+└── README.md         # Documentation</br>
 
 ## Technologies Used
 
