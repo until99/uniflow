@@ -70,8 +70,8 @@ poetry add pendulum --group time_utils
   - [ ] Update
 
 - [ ] Database Manipulation
-  - [ ] Execute Script
-  - [ ] Connection (Local and Airflow)
+  - [x] Connection (Oracle and Postgress)
+  - [ ] Airflow Connection
 
 - [ ] File & Directory Management
   - [ ] Read Content (File)
